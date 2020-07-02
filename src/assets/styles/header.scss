@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    background: #eee;
+    padding: 10px;
+
+    #pxl-logo {
+        width: 10%;
+        img {
+            width: 40%;
+            cursor: pointer;
+        }
+    }
+
+    #pxl-header-center-menu {
+        font-size: 36px;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #right-bar {
+        display: flex;
+        align-items: center;
+        div:first-child {
+            color: #008cba;
+            i {
+                position: relative;
+                font-size: 20px;
+            }
+            span {
+                position: absolute;
+                font-size: 13px;
+                left: 0;
+                color: #fff;
+                right: 0;
+                padding: 1px;
+            }
+        }
+
+        div:nth-child(2) {
+            i {
+                background: #333;
+                width: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                border-radius: 100%;
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+
+        div:last-child {
+            font-size: 25px;
+            color: #333;
+        }
+
+        div {
+            margin-right: 20px;
+            i {
+                cursor: pointer;
+            }
+        }
+    }
+}
